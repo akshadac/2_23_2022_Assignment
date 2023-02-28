@@ -1,7 +1,16 @@
 Tack 1:
-With no changes being done to the master branch, and with changes being made to the new branches, both merges were considered fast-foward merges because it is catching the master branch up to the changes included in the new branches. With this merge, we are then establishing that moving foward, the master branch should contain all of the info from the branches and hence will be maintained moving foward.
+With no changes being done to the master branch, and with changes being made to the new branches, 
+both merges were considered fast-foward merges because it is catching the master branch up to the changes 
+included in the new branches. With this merge, we are then establishing that moving foward, the master 
+branch should contain all of the info from the branches and hence will be maintained moving foward.
 
 Task 2: conflict
-B) A scenario in which there is a merge conflict is when the master branch already currently has a line with written code and an branch that is being merged in also uses up the same line for something else. 
+B) A scenario in which there is a merge conflict is when there is a change in master branch and another branch on the same line.
+For example, if in conflict branch on line 10 the paragraph is changed and at the same time in the master branch on line 10 
+the paragraph is being changed there will be a merge conflict. Both branches are trying to edit the same line. 
 
-C) Any merges that dont have any similarly used lines between the master branch and an another branch. With this, they should combine smoothly with no issues on whether should line take over another.
+C) Any merges that dont change the same lines between the master branch and an another branch. 
+With this, they should combine smoothly with no issues as no lines were chnaged on both branches. 
+For example, if on conflict branch a paragraph line was deleted and on master branch the title was updated, 
+there would be no conflicts.
+
