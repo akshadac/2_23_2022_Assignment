@@ -14,4 +14,3 @@ With this, they should combine smoothly with no issues as no lines were chnaged 
 For example, if on conflict branch a paragraph line was deleted and on master branch the title was updated, 
 there would be no conflicts.
 
-image.png 
